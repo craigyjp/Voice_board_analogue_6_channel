@@ -6,3 +6,5 @@ The shift register section can be used for switched options on the synth board, 
 
 It is very low part count and uses the Seed XIAO RA4M1 board to talk to the MIDI interface and DAC's and shitf registers. Currently it only translates CC messages to CV and swicthed output.
 But it would not be hard to change this to NRPN or Sysex to increase the resolution of the DAC outputs.
+
+![Synth](Photos/synth.jpg)
