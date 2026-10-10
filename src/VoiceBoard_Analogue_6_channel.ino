@@ -46,6 +46,7 @@
 #define NOISE_LEVEL 29
 
 #define EG_DEPTH 32
+#define PINK_WHITE 41
 
 #define OSC1_SAW_LEVEL 33
 #define OSC1_PULSE_LEVEL 34
@@ -77,7 +78,7 @@
 #define EFFECT_INTERNAL 82
 #define FILTER_PUNCH 83
 
-#define AMP_PUNCH 83
+#define AMP_PUNCH 84
 #define FILTER_A 85
 #define FILTER_B 86
 #define FILTER_C 87
@@ -136,7 +137,7 @@ static const DacMapping CC_TO_DAC[32] = {
   /* ch 7 */   { OSC1_PM_ENV,       DAC_2V0 },
 
   /* ch 8 */   { EG_DEPTH,          DAC_5V0 },
-  /* ch 9 */   { 255,               DAC_5V0 },    
+  /* ch 9 */   { PINK_WHITE,        DAC_5V0 },    
   /* ch 10 */  { 255,               DAC_5V0 },
   /* ch 11 */  { 255,               DAC_5V0 }, 
   /* ch 12 */  { 255,               DAC_5V0 },
